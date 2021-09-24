@@ -9,6 +9,7 @@ def getSoftwareName(task_process) {
     return task_process.tokenize(':')[-1].tokenize('_')[0].toLowerCase()
 }
 
+/*
 //
 // Function to initialise default values and to generate a Groovy Map of available options for nf-core modules
 //
@@ -66,3 +67,4 @@ def saveFiles(Map args) {
         }
     }
 }
+*/
